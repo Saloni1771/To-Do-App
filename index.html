@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="complete-container">
+    <h1>Todo App</h1>
+    <div class="grid-container">
+      <input type="text" id="task-todo" placeholder="Enter Task to do here">
+      <input id='todo-date' type="date" name="Date">
+      <button id="clickme" class="add-button" onclick="addTodo();">Add</button>
+      <div id="task-error" style="color: red; font-size: 0.7em; display: none;">*Please Enter correct Task</div>
+
+    </div>
+    <div class="todo-container grid-container"></div>
+  </div>
+  <script src="scripts.js">
+  </script>
+
+</body>
+
+</html>
